@@ -29,3 +29,11 @@ img {
   text-transform: uppercase;
   word-break: break-all;
 }
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    max-width: initial;
+  }
+}
