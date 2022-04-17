@@ -94,3 +94,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 500px) {
+  .projeto {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
+}

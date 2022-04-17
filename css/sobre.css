@@ -23,3 +23,19 @@
 .sobre-texto strong {
   color: #141414;
 }
+
+@media (max-width: 500px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .subtitulo {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .sobre-texto {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}

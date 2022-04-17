@@ -56,3 +56,18 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 500px) {
+  .footer-texto {
+    font-size: 1.25rem;
+  }
+
+  .footer-contato li {
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  .footer-copy {
+    font-size: 0.875rem;
+  }
+}
